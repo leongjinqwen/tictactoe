@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac-Toe</title>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+        <audio id="myAudio">
+            <source src="shortclick.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="win-audio">
+            <source src="wingame.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="lose-audio">
+            <source src="boo.mp3" type="audio/mpeg">
+        </audio>
+        
+    </header>
+    <div id='button-div'>
+        <button id='b1'>3 x 3</button>
+        <button id='b2'>5 x 5</button>
+    </div>
+    <section id="main1">
+        <table id='gameBoard1'>
+            <tr>
+                <td class="cell1" id="0"></td>
+                <td class="cell1" id="1"></td>
+                <td class="cell1" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell1" id="3"></td>
+                <td class="cell1" id="4"></td>
+                <td class="cell1" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell1" id="6"></td>
+                <td class="cell1" id="7"></td>
+                <td class="cell1" id="8"></td>
+            </tr>
+        </table>
+        <div id="endgame1">
+            <div id="text1"></div>
+        </div>
+    </section>
+    <section id="main2">
+        <table id='gameBoard2'>
+            <tr>
+                <td class="cell2" id="9"></td>
+                <td class="cell2" id="10"></td>
+                <td class="cell2" id="11"></td>
+                <td class="cell2" id="12"></td>
+                <td class="cell2" id="13"></td>
+            </tr>
+            <tr>
+                <td class="cell2" id="14"></td>
+                <td class="cell2" id="15"></td>
+                <td class="cell2" id="16"></td>
+                <td class="cell2" id="17"></td>
+                <td class="cell2" id="18"></td>
+            </tr>
+            <tr>
+                <td class="cell2" id="19"></td>
+                <td class="cell2" id="20"></td>
+                <td class="cell2" id="21"></td>
+                <td class="cell2" id="22"></td>
+                <td class="cell2" id="23"></td>
+            </tr>
+            <tr>
+                <td class="cell2" id="24"></td>
+                <td class="cell2" id="25"></td>
+                <td class="cell2" id="26"></td>
+                <td class="cell2" id="27"></td>
+                <td class="cell2" id="28"></td>
+            </tr>
+            <tr>
+                <td class="cell2" id="29"></td>
+                <td class="cell2" id="30"></td>
+                <td class="cell2" id="31"></td>
+                <td class="cell2" id="32"></td>
+                <td class="cell2" id="33"></td>
+            </tr>
+        </table>
+        <div id="endgame2">
+            <div id="text2"></div>
+        </div>
+    </section>
+
+    <div class="start">
+        <button id="startbutton">Replay</button>
+    </div>
+    
+    <section class="score-board">
+        <div class="score-div">
+            <p id="human-score">Your score : <span id="score1">0</span></p>
+        </div>
+        <div class="score-div">
+            <p id="ai-score">Computer score : <span id="score2">0</span></p>
+        </div>
+    </section>
+  
+    
+    <script src="index.js"></script>
+</body>
+</html>
+

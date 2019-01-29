@@ -1,0 +1,110 @@
+body {
+    background-image:url("wallpaper.png");
+    overflow:hidden;
+    width:100%;
+}
+header {
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+#button-div {
+    display:flex;
+    justify-content:center;
+}
+#b1, #b2 {
+    background-color:rgb(197, 245, 125);
+    font-size:25px;
+    font-family:'Indie Flower', cursive;
+    border-radius:5px;
+    border-right:2px solid rgba(0, 112, 0,0.3);
+    border-bottom:2px solid rgba(0, 112, 0,0.3);
+    margin: 0 10px;
+}
+td {
+    border:2px solid black;
+    height:90px;
+    width:90px;
+    text-align:center;
+    vertical-align:center;
+    font-size:55px;
+    font-family:'Indie Flower', cursive;
+}
+#main1 {
+    display:none;
+    justify-content:center;
+}
+#main2 {
+    display:none;
+    justify-content:center;
+}
+table {
+    border-collapse: collapse;
+    position:absolute;
+    top:120px;
+}
+h1 {
+    display:block;
+    text-align:center;
+    font-family:'Indie Flower', cursive;
+    font-size:40px;
+    margin:0;
+}
+#endgame1 {
+    display:none;
+    width:160px;
+    top:170px;
+    background-color:rgba(250, 128, 114, 0.767);
+    position:absolute;
+    padding: 40px 40px;
+    text-align:center;
+    border-radius:5px;
+    color:white;
+    font-size:40px;
+}
+#endgame2 {
+    display:none;
+    width:250px;
+    top:170px;
+    background-color:rgba(250, 128, 114, 0.767);
+    position:absolute;
+    padding: 60px 60px;
+    text-align:center;
+    border-radius:5px;
+    color:white;
+    font-size:60px;
+}
+.score-board {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    top:620px;
+}
+.score-div {
+    margin :10px;
+    background-color:rgb(147, 253, 253);
+    display:inline-block;
+    border-radius:10px;
+}
+p {
+    margin: auto 0;
+    padding:5px 5px;
+    font-size:25px;
+    font-family: 'Indie Flower', cursive;
+}
+.start {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    top:580px;
+}
+#startbutton {
+    width:120px;
+    height:40px;
+    font-size:25px;
+    border-radius:10px;
+    background-color:rgb(255, 217, 224);
+    font-family: 'Indie Flower', cursive;
+}
